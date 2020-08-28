@@ -12,7 +12,10 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "crawl_rate"
 })
 public class Source {
-
+	/*
+	 * for the sake of time http://www.jsonschema2pojo.org has been used to code this object 8)
+	 */
+	
     @JsonProperty("title")
     private String title;
     @JsonProperty("slug")

@@ -22,6 +22,9 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "timezone"
 })
 public class CityWeather {
+	/*
+	 * for the sake of time http://www.jsonschema2pojo.org has been used to code this object 8)
+	 */
 
     @JsonProperty("consolidated_weather")
     private List<ConsolidatedWeather> consolidatedWeather = null;
