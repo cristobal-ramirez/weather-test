@@ -25,6 +25,9 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "predictability"
 })
 public class ConsolidatedWeather {
+	/*
+	 * for the sake of time http://www.jsonschema2pojo.org has been used to code this object 8)
+	 */
 
     @JsonProperty("id")
     private BigInteger id;
